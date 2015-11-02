@@ -10,12 +10,8 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            int x1 = 1;
-            int y1 = 3;
-            char syml = '*';
-
-            Console.SetCursorPosition(x1,y1);
-            Console.Write(syml);
+            Point p1 = new Point(1,5,'*');
+            p1.Drow();
             Console.ReadLine();
         }
     }
